@@ -1,0 +1,32 @@
+/* .mylogo{
+    background-color: aliceblue;
+    size: 100px;
+    padding: 10px;
+    
+    flex-direction: row;
+} */
+.main-box .mylogo a{
+
+    display: flex;
+    flex-direction: row;
+
+}
+.mylogo a .txtlogo{
+    color: rgb(211, 217, 222);
+    size: 100px;
+    letter-spacing: 5px;
+    font-weight: 700;
+}
+.mylogo a .txtlogo .x{
+    color: #00AEEF;
+    size: 100px;
+    
+}
+.mylogo a .txt2{
+    display: flex;
+    color: rgb(211, 217, 222);
+    size: 10px;
+    align-items: flex-end;
+    margin: 3px;
+    letter-spacing: 1px;
+}

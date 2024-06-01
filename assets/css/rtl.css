@@ -1,0 +1,374 @@
+
+
+.rtl {
+  direction: rtl; 
+}
+
+.ltr {
+  direction: ltr; 
+}
+
+.rtl .pull-left{
+  float: right !important;
+}
+
+.rtl .pull-right{
+  float: left !important;
+}
+
+.rtl .main-menu .navigation > li{
+  float: right;
+}
+
+.rtl .main-menu{
+  float: right;
+}
+
+.rtl .cta-section{
+  text-align: right;
+}
+
+.rtl .main-menu .navigation > li:first-child{
+  margin-left: 15px !important;
+  margin-right: 0px;
+}
+
+.rtl .main-menu .navigation > li:last-child{
+  margin-right: 15px !important;
+  margin-left: 0px;
+}
+
+.rtl .main-menu .navigation > li > ul > li > a, 
+.rtl .main-menu .navigation > li > .megamenu li > a{
+  text-align: right;
+}
+
+.rtl .main-menu .navigation li.dropdown .megamenu li h4{
+  text-align: right;
+}
+
+.rtl .main-menu .navigation > li > ul > li > ul > li > a{
+  text-align: right;
+}
+
+.rtl .main-menu .navigation > li > ul > li.dropdown > a:after{
+  right: inherit;
+  left: 20px;
+  content: "\f104";
+}
+
+.rtl .mobile-menu{
+  text-align: right;
+}
+
+.rtl .mobile-menu .nav-logo{
+  text-align: right;
+}
+
+.rtl .mobile-menu .navigation li > a:before{
+  left: inherit;
+  right: 0px;
+}
+
+.rtl .mobile-menu .navigation li.dropdown .dropdown-btn{
+  right: inherit;
+  left: 6px;
+}
+
+.rtl .mobile-menu .navigation li.dropdown .dropdown-btn.open{
+  transform: rotate(-90deg);
+}
+
+.rtl .owl-carousel{
+  direction: ltr;
+}
+
+
+.rtl .main-menu .navigation > li > ul > li > a:before{
+  left: inherit;
+  right: 0px;
+}
+
+.rtl .main-menu .navigation > li > ul > li > a:hover{
+  padding-left: 0px;
+  padding-right: 22px;
+}
+
+.rtl .main-menu .navigation > li > ul > li > ul > li a:before{
+  left: inherit;
+  right: 0px;
+}
+
+.rtl .main-menu .navigation > li > ul > li > ul > li a:hover{
+  padding-left: 0px;
+  padding-right: 22px;
+}
+
+.rtl .scroll-top{
+  right: inherit;
+  left: 30px;
+}
+
+.rtl .banner-carousel .content-box{
+  text-align: right;
+}
+
+.rtl .header-top-two .social-links,
+.rtl .header-top-two .language{
+  margin-right: 0px;
+  margin-left: 20px;
+  padding-right: 0px;
+  padding-left: 20px;
+  border-right: none;
+  border-left: 1px solid rgba(255, 255, 255, 0.20);
+}
+
+.rtl .header-style-two .logo-box .bg-layer{
+  right: inherit;
+  left: 0px;
+}
+
+.rtl .header-style-two .logo-box{
+  padding-right: 0px;
+  padding-left: 50px;
+}
+
+.rtl .header-style-two .menu-right-content .user-link{
+  margin-right: 0px;
+  margin-left: 10px;
+}
+
+.rtl .counter-block-one{
+  text-align: right;
+}
+
+.rtl .about-style-two .content-box{
+  text-align: right;
+}
+
+.rtl .coaching-block-two .inner-box{
+  text-align: right;
+}
+
+.rtl .coaching-block-two .inner-box .count-text{
+  right: inherit;
+  left: 30px;
+}
+
+.rtl .coaching-block-two .inner-box h4{
+  padding-left: 0px;
+  padding-right: 30px;
+}
+
+.rtl .coaching-block-two .inner-box h4:before{
+  left: inherit;
+  right: 0px;
+}
+
+.rtl .coaching-block-two .inner-box .overlay-text .link{
+  right: inherit;
+  left: 40px;
+}
+
+.rtl .coaching-block-two .inner-box .link{
+  right: inherit;
+  left: 0px;
+}
+
+.rtl .coaching-block-two .inner-box .overlay-text{
+  padding-right: 40px;
+  padding-left: 100px;
+}
+
+.rtl .coaching-block-two .inner-box{
+  border-right: none;
+  border-left: 1px solid rgba(255, 255, 255, 0.10);
+}
+
+.rtl .statistics-section .image-box{
+  margin-left: 0px;
+  margin-right: -380px;
+}
+
+.rtl .statistics-section .content-box{
+  text-align: right;
+}
+
+.rtl .sec-title h6:before{
+  left: inherit;
+  right: 0px;
+}
+
+.rtl .statistics-section .content-box .progress-box .count-text{
+  right: inherit;
+  left: 20px;
+}
+
+.rtl .statistics-section .content-box .download-box{
+  padding-left: 0px;
+  padding-right: 60px;
+}
+
+.rtl .statistics-section .content-box .download-box .icon{
+  left: inherit;
+  right: 0px;
+}
+
+.rtl .countries-style-two .tab-btns li{
+  margin-right: 0px;
+  margin-left: 95px;
+  padding-left: 0px;
+  padding-right: 30px;
+}
+
+.rtl .countries-style-two .tab-btns li .icon-box{
+  left: inherit;
+  right: 0px;
+}
+
+.rtl .countries-block-two .inner-box{
+  text-align: right;
+}
+
+.rtl .countries-block-two .inner-box .overlay-inner{
+  padding-left: 30px;
+  padding-right: 100px;
+}
+
+.rtl .countries-block-two .inner-box .overlay-inner .flag{
+  left: inherit;
+  right: 30px;
+}
+
+.rtl .countries-block-two .inner-box .inner{
+  padding-left: 20px;
+  padding-right: 100px;
+}
+
+.rtl .countries-block-two .inner-box .inner .flag{
+  left: inherit;
+  right: 30px;
+}
+
+.rtl .chooseus-style-two .content-box{
+  text-align: right;
+}
+
+.rtl .chooseus-style-two .inner-box .single-item{
+  padding-left: 0px;
+  padding-right: 100px;
+}
+
+.rtl .chooseus-style-two .inner-box .single-item .icon-box{
+  left: inherit;
+  right: 0px;
+}
+
+.rtl .video-section .text-box{
+  float: right !important;
+  text-align: right;
+}
+
+.rtl .news-section.style-two .inner-box .lower-content{
+  text-align: right;
+}
+
+.rtl .news-block-one .inner-box .lower-content .author-box h6{
+  padding-left: 0px;
+  padding-right: 16px;
+}
+
+.rtl .news-block-one .inner-box .lower-content .author-box h6:before{
+  left: inherit;
+  right: 0px;
+}
+
+.rtl .news-block-one .inner-box .lower-content .author-box .author-thumb{
+  right: inherit;
+  left: 0px;
+}
+
+.rtl .news-section.style-two .single-item-carousel .inner-box{
+  padding-left: 0px;
+  padding-right: 370px;
+}
+
+.rtl .news-section.style-two .single-item-carousel .inner-box .image-box{
+  left: inherit;
+  right: 0px;
+}
+
+.rtl .news-section.style-two .news-block-one .inner-box .image-box h2{
+  left: inherit;
+  right: 30px;
+}
+
+.rtl .callback-section .bg-layer{
+  left: inherit;
+  right: 0px;
+}
+
+.rtl .callback-section .map-inner{
+  right: inherit;
+  left: 0px;
+}
+
+.rtl .callback-section .content-box{
+  text-align: right;
+  margin-right: 0px;
+  margin-left: 35px;
+}
+
+.rtl .callback-section .map-inner .map-location .single-location .address-box{
+  text-align: right;
+}
+
+.rtl .footer-top-two{
+  text-align: right;
+}
+
+.rtl .footer-top-two .widget-title:before{
+  left: inherit;
+  right: 0px;
+}
+
+.rtl .footer-top-two .tweet-widget .tweet-content .inner{
+  padding-left: 0px;
+  padding-right: 70px;
+}
+
+.rtl .footer-top-two .tweet-widget .tweet-content .inner .image-box{
+  left: inherit;
+  right: 0px;
+}
+
+.rtl .footer-top-two .post-widget .post h6{
+  padding-left: 0px;
+  padding-right: 16px;
+}
+
+.rtl .footer-top-two .post-widget .post h6:before{
+  left: inherit;
+  right: 0px;
+}
+
+.rtl .footer-top-two .links-widget .links-list li a{
+  padding-left: 0px;
+  padding-right: 30px;
+}
+
+.rtl .footer-top-two .links-widget .links-list li a:before{
+  left: inherit;
+  right: 0px;
+  transform: rotate(180deg);
+}
+
+.rtl .footer-top-two .logo-widget .inner h4{
+  padding-left: 0px;
+  padding-right: 60px;
+}
+
+.rtl .footer-top-two .logo-widget .inner h4:before{
+  left: inherit;
+  right: 0px;
+}

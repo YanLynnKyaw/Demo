@@ -5,6 +5,18 @@
     
     flex-direction: row;
 } */
+
+.mylogo .mainLogo{
+    width: 170px;
+    height: 70px;
+}
+
+.sticky-header .mylogo .mainLogo{
+    width: 190px;
+    height: 70px;
+    padding-left: 20px;
+}
+
 .main-box .mylogo a{
 
     display: flex;
@@ -30,3 +42,55 @@
     margin: 3px;
     letter-spacing: 1px;
 }
+
+
+
+/* footerlogo */
+.footer-column .social-links{
+    padding-right: 20px;
+    margin-right: 20px;
+    /* border-right: 1px solid rgba(255, 255, 255, 0.20); */
+  }
+  
+.footer-column .social-links li{
+  position: relative;
+  display: inline-block;
+  float: left;
+  margin-right: 10px;
+}
+
+.footer-column .social-links li:last-child{
+  margin: 0px !important;
+}
+
+.footer-column .social-links li a{
+  position: relative;
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  line-height: 28px;
+  font-size: 12px;
+  color: #fff;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.footer-column .social-links li:last-child a{
+    background: #1ab7ea;
+  }
+.footer-column .social-links li:nth-child(1) a{
+  background: #1877f2;
+}
+
+.footer-column .social-links li:nth-child(2) a{
+  background: #1da1f2;
+}
+
+
+
+/* .footer-column .social-links li h6{
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 600;
+  color: #fff;
+} */

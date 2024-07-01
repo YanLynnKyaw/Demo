@@ -1,0 +1,53 @@
+*{
+    margin:0px;
+    padding:0px;
+    border:none;
+    outline:none;
+    box-sizing: border-box;
+  }
+
+.study-main{
+    background-image: url(../images/CountriesPhotos/test.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.study-title{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-top: 100px;
+    height: 200px; */
+
+}
+
+.study-title h2{
+    font-size: 30px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.text-field{
+    padding: 20px;
+}
+
+.text-field .main-text1{
+    padding: 30px;
+    
+}
+.text-field .acc-title{
+    color: #1e1d1d;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 1200px){
+    .study-title{
+        /* height: 100px; */
+    }
+}

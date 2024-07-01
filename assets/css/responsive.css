@@ -15,7 +15,7 @@
   }
 
   .header-lower{
-    padding-left: 250px;
+    /* padding-left: 250px; */
   }
 
   .header-lower .outer-box{
@@ -103,6 +103,10 @@
 
 @media only screen and (max-width: 1200px){
 
+  .header-style-two .header-lower .outer-box{
+    position: sticky;
+    padding: 10px;
+  }
   .header-lower .main-box .mylogo .mainLogo{
     width: 100px;
     height: 45px;
@@ -311,6 +315,11 @@
 
 
 @media only screen and (max-width: 991px){
+
+  .header-style-two .header-lower .outer-box{
+    position: sticky;
+    padding: 10px;
+  }
 
   .banner-section .owl-theme .owl-nav{
     display: none;

@@ -177,6 +177,10 @@ p{
   font-weight: 400;
   margin: 0px;
   transition: all 500ms ease;
+  /* padding: 10px; */
+}
+.sec-title p {
+  padding: 20px;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -534,7 +538,7 @@ img {
   margin-bottom: 50px;
 }
 
-.sec-title h6{
+/* .sec-title h6{
   position: relative;
   display: inline-block;
   font-size: 14px;
@@ -543,18 +547,30 @@ img {
   padding-bottom: 9px;
   margin-bottom: 15px;
   text-transform: uppercase;
-}
+} */
 
-.sec-title h6:before{
+/* .sec-title h6:before{
   position: absolute;
   content: '';
   width: 70px;
   height: 2px;
   left: 0px;
   bottom: 0px;
+} */
+.sec-title h2:before{
+  position: absolute;
+  content: '';
+  width: 130px;
+  height: 2.5px;
+  left: 0px;
+  bottom: 0px;
 }
 
-.sec-title.centred h6:before{
+/* .sec-title.centred h6:before{
+  left: 50%;
+  transform: translateX(-50%);
+} */
+.sec-title.centred h2:before{
   left: 50%;
   transform: translateX(-50%);
 }
@@ -565,6 +581,7 @@ img {
   font-size: 40px;
   line-height: 50px;
   font-weight: 800;
+  padding: 0 0 10px;
 }
 
 .sec-title.light h2{
@@ -877,8 +894,8 @@ img {
 /** header-lower **/
 
 .header-lower{
-  position: relative;
-  padding-left: 325px;
+  /* position: relative;
+  padding-left: 325px; */
 }
 
 .header-lower .outer-box{
@@ -1268,6 +1285,9 @@ img {
   margin-top: -4px;
   top: 100%;
 }
+.main-menu .navigation li ul{
+  padding-left: -40px;
+}
 
 .main-menu .navigation > li.dropdown > ul:before{
   position: absolute;
@@ -1284,6 +1304,7 @@ img {
   opacity:1;
   top: 0%; 
   margin-left: 10px;
+  
 }
 
 .main-menu .navigation li.dropdown .dropdown-btn{
@@ -4421,11 +4442,11 @@ div#mCSB_1_container{
 }
 
 .header-style-two .header-lower{
-  position: relative;
+  /* position: relative; */
 }
 
 .header-style-two .header-lower .outer-box{
-  position: absolute;
+  /* position: absolute; */
   left: 0px;
   top: 0px;
   right: 0px;
@@ -6387,7 +6408,7 @@ div#mCSB_1_container{
   line-height: 30px;
   color: #343838;
   font-weight: 700;
-  padding-left: 60px;
+  /* padding-left: 60px; */
   margin-bottom: 11px;
 }
 

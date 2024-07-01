@@ -341,7 +341,10 @@
 	color: #3283ea;
 }
 
-.home-2 .sec-title h6:before{
+/* .home-2 .sec-title h6:before{
+	background-color: #3283ea;
+} */
+.home-2 .sec-title h2:before{
 	background-color: #3283ea;
 }
 
@@ -530,7 +533,7 @@
 }
 
 .home-2 .footer-top-two .logo-widget .inner h4:before{
-	background-color: #2f7ad8;
+	/* background-color: #2f7ad8; */
 }
 
 .home-2 .footer-top-two .logo-widget .inner p a:hover{

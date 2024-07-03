@@ -1196,7 +1196,7 @@ img {
   position:absolute;
   left:100%;
   top:0%;
-  width:230px;
+  width:130px;
   z-index:100;
   display:none;
   border-radius: 0px;
@@ -1284,6 +1284,7 @@ img {
   opacity:1;
   margin-top: -4px;
   top: 100%;
+  margin-left: -150px;
 }
 .main-menu .navigation li ul{
   padding-left: -40px;
@@ -1366,7 +1367,7 @@ img {
 }
 
 .main-menu .big-menu{
-  width: 460px !important;
+  width: 360px !important;
 }
 
 .sticky-header .main-menu .navigation > li{
@@ -5090,11 +5091,14 @@ div#mCSB_1_container{
   border-radius: 50%;
   margin-bottom: 64px;
   transition: all 500ms ease;
+  display: flex;
+  align-items: center;
+  background-color: aliceblue;
 }
 
 .coaching-block-two .inner-box .image-box img{
   width: 100%;
-  border-radius: 50%;
+  /* border-radius: 50%; */
 }
 
 .coaching-block-two .inner-box:hover .image-box{
